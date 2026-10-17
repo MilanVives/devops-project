@@ -1,0 +1,22 @@
+# Echte secrets nooit committen: enkel secret.example.yaml
+secret.yaml
+secret.yml
+.env
+*.pem
+*.key
+kubeconfig*
+
+# Terraform/OpenTofu (Final)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+.DS_Store
+
+# Build-output
+node_modules/
+target/
+build/
+dist/
